@@ -10,6 +10,9 @@ This repository holds all of my personal projects that I recently made.
       - Scripts
       - NLLP
       - Deep Learning
+      
+    - [R](https://github.com/ogulcanertunc/Data-Science-Projects/tree/main/R)
+  
      
 2. [Public Tableau Visualizations](https://github.com/ogulcanertunc/Data-Science-Projects-with-Basic-Concepts/tree/main/Tableau%20Visualizations) *In preparation phase
 
@@ -30,3 +33,4 @@ Now I focus on programming for the problems that arise, automate my life whereve
 | Professional Email | ertuncogulcan@gmail.com |
 | School Email | ogulcan.ertunc01@icatt.it |
 | LinkedIn | https://www.linkedin.com/in/ogulcanertunc/ |
+| Medium Page | https://medium.com/ogi-on-ds |
