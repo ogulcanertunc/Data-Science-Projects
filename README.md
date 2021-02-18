@@ -1,13 +1,11 @@
-# Data Science Projects with Basic Concepts
----
 # Ogulcan Ertunc - Projects Portfolio
-
+---
 ## Index
 
 This repository holds all of my personal projects that I recently made.
 
-1. [Personal Programming Projects](https://github.com/ogulcanertunc/Data-Science-Projects-with-Basic-Concepts)
-    - [Python](https://github.com/ogulcanertunc/Data-Science-Projects-with-Basic-Concepts/tree/main/Python)
+1. [Personal Programming Projects](https://github.com/ogulcanertunc/Data-Science-Projects)
+    - [Python](https://github.com/ogulcanertunc/Data-Science-Projects/tree/main/Python)
       - Data Science
       - Scripts
       - NLLP
