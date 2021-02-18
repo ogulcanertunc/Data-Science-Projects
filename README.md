@@ -10,7 +10,9 @@ This repository holds all of my personal projects that I recently made.
     - [Python](https://github.com/ogulcanertunc/Data-Science-Projects-with-Basic-Concepts/tree/main/Python)
       - Data Science
       - Scripts
-      - Software Development
+      - NLLP
+      - Deep Learning
+     
 2. [Public Tableau Visualizations](https://github.com/ogulcanertunc/Data-Science-Projects-with-Basic-Concepts/tree/main/Tableau%20Visualizations) *In preparation phase
 
 Each category has their own variety of projects and should be accompanied by some form of documentation. 
