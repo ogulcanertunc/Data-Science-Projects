@@ -11,7 +11,7 @@ This repository holds all of my personal projects that I recently made.
       - NLLP
       - Deep Learning
       
-    - [R](https://github.com/ogulcanertunc/Data-Science-Projects/tree/main/R)
+    - [R](https://github.com/ogulcanertunc/Data-Science-Projects/tree/main/R) *In preparation phase
   
      
 2. [Public Tableau Visualizations](https://github.com/ogulcanertunc/Data-Science-Projects-with-Basic-Concepts/tree/main/Tableau%20Visualizations) *In preparation phase
