@@ -15,7 +15,7 @@
   <p align="center">
     Project Description
     <br />
-    <a href="https://github.com/ogulcanertunc/Data-Science-Projects/tree/main/Python/Finding%20the%20restaurant%20location%20to%20be%20opened%20with%20data%20analysis"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/ogulcanertunc/Data-Science-Projects/blob/main/Python/Finding%20the%20restaurant%20location%20to%20be%20opened%20with%20data%20analysis/milano_kebap.ipynb"><strong>Explore the docs »</strong></a>
     <br />
     <br />
   </p>
