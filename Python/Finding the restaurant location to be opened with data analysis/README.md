@@ -13,7 +13,7 @@
   <h3 align="center">Finding the restaurant location to be opened with data analysis</h3>
 
   <p align="center">
-    project_description
+    Project Description
     <br />
     <a href="https://github.com/ogulcanertunc/Data-Science-Projects/tree/main/Python/Finding%20the%20restaurant%20location%20to%20be%20opened%20with%20data%20analysis"><strong>Explore the docs »</strong></a>
     <br />
