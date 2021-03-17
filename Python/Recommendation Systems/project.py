@@ -200,13 +200,3 @@ data_user_item = pd.DataFrame()
 data_user_item["userbased_recommendations"] = movies_from_user_based[:5].values
 data_user_item["itembased_recommendations"] = movie_item_based[:5].index
 data_user_item
-
-
-#      user_recommendations item_recommendations
-#0      Strange Days (1995)                 Heat
-#1      Pulp Fiction (1994)               Casino
-#2      Forrest Gump (1994)                Ronin
-#3              Rudy (1993)        Carlito's Way
-#4  Schindler's List (1993)           Collateral
-
-
