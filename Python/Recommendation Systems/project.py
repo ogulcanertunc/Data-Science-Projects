@@ -10,8 +10,8 @@ pd.set_option('display.width', 200)
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-movie = pd.read_csv('Lectures/Week 10/Dosyalar/movie.csv')
-rating = pd.read_csv('Lectures/Week 10/Dosyalar/rating.csv')
+movie = pd.read_csv('movie.csv')
+rating = pd.read_csv('rating.csv')
 df = movie.merge(rating, how="left", on="movieId")
 df.head()
 
@@ -81,7 +81,7 @@ top_users = top_users.sort_values(by='corr', ascending=False)
 top_users.rename(columns={"user_id_2": "userId"}, inplace=True)
 top_users.head()
 
-rating = pd.read_csv('Lectures/Week 10/Dosyalar/rating.csv')
+rating = pd.read_csv('rating.csv')
 top_users_ratings = top_users.merge(rating[["userId", "movieId", "rating"]], how='inner')
 
 
@@ -100,7 +100,7 @@ recommendation_df['movieId'] = temp.index
 recommendation_df = recommendation_df.sort_values(by='weighted_average_recommendation_score', ascending=False)
 recommendation_df.head(30)
 
-movie = pd.read_csv('Lectures/Week 10/Dosyalar/movie.csv')
+movie = pd.read_csv('movie.csv')
 movies_from_user_based = movie.loc[movie['movieId'].isin(recommendation_df['movieId'].head(10))]['title']
 movies_from_user_based.head(30)
 movies_from_user_based[:5].values
@@ -110,7 +110,7 @@ movies_from_user_based[:5].values
 #######################################################
 
 # show first 5 recommended movies
-movie = pd.read_csv('Lectures/Week 10/Dosyalar/movie.csv')
+movie = pd.read_csv('movie.csv')
 movies_user_based = movie.loc[movie['movieId'].isin(recommendation_df['movieId'].head(10))]['title']
 movies_user_based[:5].values
 
@@ -120,8 +120,8 @@ movies_user_based[:5].values
 
 ### 1st Step Making a Recommendation  by the title of the most recent highest rated movie ###
 #############################################################################################
-movie = pd.read_csv('Lectures/Week 10/Dosyalar/movie.csv')
-rating = pd.read_csv('Lectures/Week 10/Dosyalar/rating.csv')
+movie = pd.read_csv('movie.csv')
+rating = pd.read_csv('rating.csv')
 df = movie.merge(rating, how="left", on="movieId")
 df.head()
 
@@ -200,13 +200,3 @@ data_user_item = pd.DataFrame()
 data_user_item["userbased_recommendations"] = movies_from_user_based[:5].values
 data_user_item["itembased_recommendations"] = movie_item_based[:5].index
 data_user_item
-
-
-#      user_recommendations item_recommendations
-#0      Strange Days (1995)                 Heat
-#1      Pulp Fiction (1994)               Casino
-#2      Forrest Gump (1994)                Ronin
-#3              Rudy (1993)        Carlito's Way
-#4  Schindler's List (1993)           Collateral
-
-

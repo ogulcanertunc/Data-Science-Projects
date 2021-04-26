@@ -7,7 +7,7 @@ This repository holds all of my personal projects that I recently made.
     - [Python](https://github.com/ogulcanertunc/Data-Science-Projects/tree/main/Python)
       - Data Science
       - Scripts
-      - NLP
+      - [NLP](https://github.com/ogulcanertunc/NLP-Projects)
       - Deep Learning
       
     - [R](https://github.com/ogulcanertunc/Data-Science-Projects/tree/main/R) *In preparation phase
