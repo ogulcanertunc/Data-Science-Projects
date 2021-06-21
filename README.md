@@ -6,9 +6,9 @@ This repository holds all of my personal projects that I recently made.
 1. [Personal Programming Projects](https://github.com/ogulcanertunc/Data-Science-Projects)
     - [Python](https://github.com/ogulcanertunc/Data-Science-Projects/tree/main/Python)
       - [Data Science](https://github.com/ogulcanertunc/Data-Science-Projects/tree/main/Python)
+      - Basics of Deep Learning
       - [Time Series](https://github.com/ogulcanertunc/Time-Series)
       - [NLP](https://github.com/ogulcanertunc/NLP-Projects)
-      - Deep Learning
       
     - [R](https://github.com/ogulcanertunc/Data-Science-Projects/tree/main/R) *In preparation phase
   
