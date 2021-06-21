@@ -1,4 +1,3 @@
-[![Forks][forks-shield]][forks-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
